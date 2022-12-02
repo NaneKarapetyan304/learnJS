@@ -374,11 +374,19 @@
 
 //forEach
 
-let arr = ['Nane', 'Nona', 'Nare'];
-arr.forEach(function(item, index, array) {
-    console.log(`${item} is in ${index} on ${array}`)
-});
-arr.forEach(show);
-function show(item){
-    console.log(item);
-};
+// let arr = ['Nane', 'Nona', 'Nare'];
+// arr.forEach(function(item, index, array) {
+//     console.log(`${item} is in ${index} on ${array}`)
+// });
+// arr.forEach(show);
+// function show(item){
+//     console.log(item);
+// };
+
+//reduce
+
+let arr = [1, 2, 3]
+let reduceValueOne = arr.reduce(function(previousValue, item, index, array) {
+    return item + previousValue;
+}, 0);
+console.log(reduceValueOne);
