@@ -431,13 +431,13 @@
 //     console.log(k)
 // }
 
-// map and set //WeakMap and WeakSet
+// Map and Set //WeakMap and WeakSet
 
-let map = new Map([
-    ['Nane', 18],
-    ['Nona', 22],
-    ['Nare', 20]
-]);
+// let map = new Map([
+//     ['Nane', 18],
+//     ['Nona', 22],
+//     ['Nare', 20]
+// ]);
 // for (let age of map.values()) {
 //     console.log(age)
 // };
@@ -454,3 +454,25 @@ let map = new Map([
 //console.log(map.has(false));
 //console.log(map.size);
 //console.log(map.entries());
+
+//Set
+// let set = new Set();
+
+// let nane = { name: 'Nane' };
+// let nona = { name: 'Nona' };
+// let nare = { name: 'Nare' };
+// let mane = { name: 'Mane' };
+
+// set.add(nane);
+// set.add(nona);
+// set.add(mane);
+// set.add(nare);
+// set.add(nane);
+// set.add(nona);
+
+// console.log(set.size);
+
+// for (let user of set) {
+//     console.log(user.name);
+// };
+
