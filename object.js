@@ -90,7 +90,7 @@
 // arr.push(6);  //verjic avelacnum e element
 // console.log(arr);
 
-// arr.pop();   //verjic jnjum e verjin elementy
+// arr.pop();   //jnjum e verjin elementy
 // console.log(arr);
 
 // arr.shift(); //jnjum e arajin elementy
@@ -476,3 +476,27 @@
 //     console.log(user.name);
 // };
 
+// let weakmap = new WeakMap();
+// let obj = {};
+// weakmap.set(obj, 'ok');
+
+// //WeakMap-i key-ery object-ner en
+
+// let nane = { name: 'Nane'}; 
+// let weakmap2 = new WeakMap();
+// weakmap2.set(nane,"...");
+
+// //nane = null; //nane obj-n kjnjvi hishoxutyunic
+// console.log(weakmap2.get(nane));
+// console.log(weakmap2.has(nane));
+
+
+//Object.keys,values,entries
+
+let obj = {
+    name: 'Nane',
+    age: 18,
+};
+console.log(Object.keys(obj)); //veradardznum e key-ery masivi mej
+console.log(Object.values(obj)); //veradardznum e value-ery masivi mej
+console.log(Object.entries(obj)); //veradardznum e array vori mej arraynerow key:value -nern en
