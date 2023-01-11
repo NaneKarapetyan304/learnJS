@@ -493,10 +493,10 @@
 
 //Object.keys,values,entries
 
-let obj = {
-    name: 'Nane',
-    age: 18,
-};
-console.log(Object.keys(obj)); //veradardznum e key-ery masivi mej
-console.log(Object.values(obj)); //veradardznum e value-ery masivi mej
-console.log(Object.entries(obj)); //veradardznum e array vori mej arraynerow key:value -nern en
+// let obj = {
+//     name: 'Nane',
+//     age: 18,
+// };
+// console.log(Object.keys(obj)); //veradardznum e key-ery masivi mej
+// console.log(Object.values(obj)); //veradardznum e value-ery masivi mej
+// console.log(Object.entries(obj)); //veradardznum e array vori mej arraynerow key:value -nern en
